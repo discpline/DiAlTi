@@ -1,8 +1,32 @@
 venv/
 .pylintrc
 __pycache__/
-
 .idea
-
 db.sqlite3
 media/
+
+# Environment files
+.env
+.env.*
+
+# Logs and caches
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Django specific
+*.db
+*.sqlite3
+
+# IDE specific
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# pytest
+.pytest_cache/
+
+# System files
+.DS_Store
+Thumbs.db
